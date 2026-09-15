@@ -13,7 +13,8 @@ public class Main {
 		SpringApplication.run(Main.class, args);
 
         ThreadTester threadTester = new ThreadTester();
-        threadTester.runThreadTest();
+//        threadTester.runThreadTest();
+        threadTester.runNumberTest();
 	}
 
 }
